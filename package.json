@@ -1,0 +1,20 @@
+{
+  "author": "Federico Ramallo <framallo@gmail.com> (http://framallo.com)",
+  "name": "openlayers",
+  "description": "Open Layers packaged for use server side and with node-browserify",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/framallo/node-openlayers.git"
+  },
+  "main": "openlayers",
+  "scripts": {
+    "test": "test"
+    "build": "./build.sh"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
