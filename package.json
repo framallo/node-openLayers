@@ -16,5 +16,11 @@
     "node": "*"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "browserify" : {
+    "name" : "openlayers",
+    "main" : "./lib/OpenLayers-full.js",
+    "base" : "./lib"
+  },
+  
 }
