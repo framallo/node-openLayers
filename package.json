@@ -7,20 +7,22 @@
     "type": "git",
     "url": "git://github.com/framallo/node-openlayers.git"
   },
-  "main": "openlayers",
+  "main": "lib/OpenLayers-full",
   "scripts": {
-    "test": "test"
+    "test": "node test.js",
     "build": "./build.sh"
   },
   "engines": {
     "node": "*"
   },
-  "dependencies": {},
+  "dependencies": {
+    "browserify":"*"
+  },
   "devDependencies": {},
-  "browserify" : {
+  "browserify": {
     "name" : "openlayers",
     "main" : "./lib/OpenLayers-full.js",
     "base" : "./lib"
-  },
+  }
   
 }
